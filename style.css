@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 85%);
+}
+header{
+    padding: 20px 0;
+}
+.header-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-block;
+}
+.search{
+    
+    width: 120px;
+    height:40px;
+    
+    background-color: hsl(0,0%, 75%);
+}
+li{
+    display: inline-block;
+    height: 100px;
+    width: 120px;
+    margin-right: 20px;
+    background-color: hsl(0,0%, 65%);
+}
+.center-text{
+    background-color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+}
+.main{
+    position: relative;
+}
+.content{
+    display: flex;
+    flex-flow: row wrap;
+}
+.story{
+    width: 50%;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    text-align: center;
+    padding-top:15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: hsl(0,0%,50%);
+}
+.author{
+    height: 90px;
+    width: 50%;
+    margin-bottom: 20px;
+    background-color: hsl(0,0%, 35%);
+}
+.article-title{
+    background-color: black;
+    margin-bottom: 50px;
+    height: 250px;
+    
+}
+.tags{
+    height: 20px;
+    width: 70%;
+    margin-top: 20px;
+    background-color: hsl(0,0%, 35%);
+
+}
+.light{
+    background-color: hsl(0,0%,70%);
+}
+.short-text{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-right: 10px solid black ;
+    
+    
+    
+}
+.short-text > div {
+    width: 40%;
+    height: 260px;
+    border: 2px solid black;
+    padding-right: 1%;
+    justify-content: space-evenly;
+}
+
+.text-title{
+    height: 40%;
+    width: 100%;
+    margin-left: 3px;
+    margin-top: 5px;  
+    margin-bottom: 20px;
+    background-color: hsl(0,0%, 35%);
+}
+.article-author{
+    width: 30%;
+    height: 20px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    background-color: hsl(0,0%, 25%);
+}
+.ad{
+    width: 100%;
+    height: 20%;
+    margin: 5%;
+}
+.tv-banner{
+    width: 100%;
+    margin: 5%;
+    height: 350px;
+    background-color: hsl(0,0%, 35%);
+}
+.book-banner{
+    width: 100%;
+    height: 500px;
+    background-color: hsl(0,0%, 35%);
+
+}
+.testimonial{
+    
+    display: flex;
+}
+.testimonial .image-container{
+    margin: 5%;
+    
+    height: 150px;
+    flex: 0 0 65%;
+    background-color: hsl(0,0%, 35%);
+}
+.testimonial-description{
+    flex:1;
+    background-color: hsl(0,0%, 35%);
+}
