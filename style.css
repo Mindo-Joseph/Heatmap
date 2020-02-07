@@ -80,7 +80,7 @@ li{
     display: flex;
     flex-direction: row;
     width: 100%;
-    border-right: 10px solid black ;
+    
     
     
     
@@ -131,4 +131,19 @@ li{
     margin: 5%;
     height: 300px;
     
+}
+.short-text .article-1{
+    width: 40%;
+    margin: 5%;
+    background-color: hsl(0,0%, 65%);
+
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: hsl(0,0%, 25%);
+
+}
+.book-banner{
+    margin-top: 5%;
 }
